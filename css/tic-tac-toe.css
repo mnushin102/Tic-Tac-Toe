@@ -1,0 +1,63 @@
+body{
+    background: -webkit-linear-gradient(rgb(35, 134, 145), rgb(46, 46, 148));
+    background-color: rgb(90, 121, 133);
+    color:white;
+    letter-spacing: 5px;
+    word-spacing:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: auto auto 10px auto;
+}
+
+#game-header {
+    background-color: rgb(6, 79, 79);
+    text-align:center;
+    color:rgb(43, 203, 203);
+    text-shadow: 2px 5px 3px #2f2c2b;
+    text-decoration:none;
+    font-size: 275%;
+    display:inline-block;
+    border-top: 5px groove blue;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: 5px groove blue;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-width: 6.5px;
+    margin: 20px auto auto 275px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+table {
+    margin: 50px auto auto auto;
+}
+
+td.one, td.two, td.three, 
+td.four, td.five, td.six {
+    border-bottom: 5px groove white;
+    padding: 40px;
+}
+
+td.one, td.two, td.four, 
+td.five, td.seven, td.eight{
+    border-right: 5px groove white;
+    padding: 40px;
+    height:50px;
+}
+
+#start {
+    background:-webkit-linear-gradient(rgb(50, 224, 251), rgb(0, 98, 255));
+    background-color:aqua;
+    color:#2f2c2b; 
+    padding: 10px;
+    font-size: 30px;
+    margin: 70px auto auto 620px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: groove;
+    width:200px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
