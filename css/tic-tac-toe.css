@@ -5,7 +5,7 @@ body{
     letter-spacing: 5px;
     word-spacing:5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    margin: auto auto 10px auto;
+    margin: 20px 12px 9px 10px;
 }
 
 #game-header {
@@ -23,13 +23,16 @@ body{
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     border-bottom-width: 6.5px;
-    margin: 20px auto auto 275px;
+    margin: 5px auto auto 275px;
     padding: 12px;
     text-transform: uppercase;
+    -webkit-text-stroke:#ee620aad 2px;
 }
 
 table {
-    margin: 50px auto auto auto;
+    margin: 35px auto auto auto;
+    background-color:rgb(45, 45, 45);
+    border: 2px solid #e35d0a;
 }
 
 td.one, td.two, td.three, 
@@ -52,9 +55,9 @@ td.five, td.seven, td.eight{
     padding: 10px;
     font-size: 30px;
     margin: 70px auto auto 620px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
-    border-style: groove;
+    border-style:solid;
     width:200px;
     letter-spacing: 1px;
     text-align: center;
